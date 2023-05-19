@@ -24,7 +24,7 @@ const About = () => {
         <div className="content_name">
           <div className="content_download">
             <h2>Benjamin EKIA MOUANGA</h2>
-            <button className="content_btn">Download  here CV</button>
+            <button className="content_btn">Download   CV</button>
           </div>
         </div>
         <div className="content_photo">
