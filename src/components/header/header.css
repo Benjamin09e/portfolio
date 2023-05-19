@@ -1,0 +1,59 @@
+.navbar {
+  height: 15vh;
+  width: 100%;
+  background-color: #F4F1F1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0px 19px 27px 22px rgba(0, 0, 0, 0.1),
+    0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .logo {
+  font-size: 10px;
+  color: black;
+}
+
+.fa_memu .fa_fmenu {
+  font-size: 30px;
+}
+
+.navbar .navlikns {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navlikns .home {
+  text-decoration: none;
+  color: black;
+  list-style: none;
+  font-size: 19px;
+}
+.navlikns .about {
+  text-decoration: none;
+  color: black;
+  list-style: none;
+  font-size: 19px;
+}
+
+.navlikns .more {
+  text-decoration: none;
+  color: black;
+  list-style: none;
+  font-size: 19px;
+}
+
+.navlikns .skills {
+  text-decoration: none;
+  color: black;
+  list-style: none;
+  font-size: 19px;
+}
+
+.navlikns .contact {
+  text-decoration: none;
+  color: black;
+  list-style: none;
+  font-size: 19px;
+}
