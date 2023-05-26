@@ -1,8 +1,126 @@
-.container_contact{
-    width: 80%;
-    height: 70vh;
-    border: 1px solid black;
-    background-color: rgb(235, 231, 227);
-    margin-right: auto;
-    margin-left: auto;
+.container_contact {
+  width: 80%;
+  height: 70vh;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container_contact .content_contact {
+  margin-top: 98px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.container_contact .content_contact p {
+  margin-top: 19px;
+  text-align: justify;
+  margin-bottom: 55px;
+}
+
+.container_contact .contact_parent {
+  width: 75%;
+  height: 60vh;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+}
+
+.contact_parent .contact_info {
+  width: 45%;
+  background-color: #131d30;
+  margin: 10px 10px;
+  border-radius: 10px 0 0 10px;
+  color: white;
+  padding-left: 30px;
+  padding-top: 40px;
+}
+
+.contact_info .contact_info_top p {
+  margin-top: 6px;
+}
+
+.contact_info .contact_info_main {
+  margin-top: 20%;
+}
+
+.contact_info .contact_info_bottom {
+  margin-top: 40%;
+}
+
+.contact_info_bottom .si_fa1,
+.contact_info_bottom .si_fa2,
+.contact_info_bottom .si_fa3 {
+  margin-left: 19px;
+  font-size: 20px;
+}
+
+.contact_info_main .contactfa_icons {
+  display: flex;
+}
+.contact_info_main .contactfa_icons {
+  display: flex;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.contact_info_main .contactfa_icons p {
+  margin-left: 20px;
+}
+
+.contact_parent .contact_form {
+  width: 55%;
+}
+
+.contact_form .form_content {
+  margin: 40px 10px;
+  height: 16vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form_left .left_content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 22px;
+}
+
+.form_right .right_content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 22px;
+}
+
+.contact_form .form_aera {
+  margin: 0px 10px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.contact_form .form_btn {
+  margin: 90px 1px;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+  
+}
+
+.form_btn .btn_send {
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 12px;
+  }
+
+.input_content {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #5d5c5c;
+  color: #0a0909;
+  font-size: 14px;
+  padding-top: 10px;
+  width: 100%;
 }

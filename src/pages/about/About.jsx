@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import photo from "../../assets/images/photo.png"
+import { SiGmail, SiGithub, SiLinkedin } from "react-icons/si";
 
 const About = () => {
   return (
@@ -20,15 +20,46 @@ const About = () => {
           illo incidunt animi dolorem exercitationem, provident rem quo? ABOUT
         </p>
       </div>
-      <div className="content_profil">
-        <div className="content_name">
-          <div className="content_download">
-            <h2>Benjamin EKIA MOUANGA</h2>
-            <button className="content_btn">Download CV</button>
-          </div>
+      <div className="content_elements">
+        <div>
+          <h3>Web Développeur Frontend</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore,
+            beatae recusandae fuga sequi accusantium deleniti quibusdam nihil
+            repudiandae eum alias, molestias eligendi reprehenderit earum. At
+            labore deserunt dignissimos asperiores in. Inventore dolores
+            perspiciatis labore atque vitae tenetur,
+          </p>
         </div>
-        <div className="content_photo">
-          <img src={photo} className="content_img"  height="100%"/>
+        <div>
+          <h3>Web Développeur Backend</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore,
+            beatae recusandae fuga sequi accusantium deleniti quibusdam nihil
+            repudiandae eum alias, molestias eligendi reprehenderit earum. At
+            labore deserunt dignissimos asperiores in. Inventore dolores
+            perspiciatis labore atque vitae tenetur,
+          </p>
+        </div>
+        <div>
+          <h3>Web Développeur Designer UX | UI</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore,
+            beatae recusandae fuga sequi accusantium deleniti quibusdam nihil
+            repudiandae eum alias, molestias eligendi reprehenderit earum. At
+            labore deserunt dignissimos asperiores in. Inventore dolores
+            perspiciatis labore atque vitae tenetur,
+          </p>
+        </div>
+      </div>
+      <div className="content_profil">
+        <div className="content_download">
+          <button className="content_btn">Download my resume</button>
+        </div>
+        <div className="content_iconfa">
+          <SiGmail className="si_fa1" />
+          <SiGithub className="si_fa2" />
+          <SiLinkedin className="si_fa3" />
         </div>
       </div>
     </div>

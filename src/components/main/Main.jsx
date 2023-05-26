@@ -18,6 +18,7 @@ const Main = () => {
           <Route path="/skills" element={<Skills />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
+        
       </div>
     </div>
   )

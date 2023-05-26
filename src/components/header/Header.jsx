@@ -1,8 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "./header.css";
-import { IoMenu } from "react-icons/io5";
-
+import { SiGmail, SiGithub, SiLinkedin } from "react-icons/si";
 
 const Header = () => {
   return (
@@ -11,14 +10,26 @@ const Header = () => {
         <h1>Benjamin EKIA MOUANGA</h1>
       </div>
       <div className="navlikns">
-        <NavLink to="/home" className="home">Home</NavLink>
-        <NavLink to="/about" className="about">About</NavLink>
-        <NavLink to="/more" className="more">Services</NavLink>
-        <NavLink to="/skills" className="skills">Skills</NavLink>
-        <NavLink to="/contact" className="contact">Contact</NavLink>
+        <NavLink to="/home" className="home">
+          Home
+        </NavLink>
+        <NavLink to="/about" className="about">
+          About
+        </NavLink>
+        <NavLink to="/more" className="more">
+          Services
+        </NavLink>
+        <NavLink to="/skills" className="skills">
+          Skills
+        </NavLink>
+        <NavLink to="/contact" className="contact">
+          Contact
+        </NavLink>
       </div>
-      <div className="fa_memu">
-        <IoMenu className="fa_fmenu"/>
+      <div className="fa_menu">
+        <SiGmail className="si_fa1" />
+        <SiGithub className="si_fa2" />
+        <SiLinkedin className="si_fa3" />
       </div>
     </div>
   );

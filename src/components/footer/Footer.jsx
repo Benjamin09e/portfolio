@@ -1,6 +1,6 @@
 import React from "react";
 import "./footer.css";
-import { SiGmail, SiGithub, SiLinkedin, SiTwitter } from "react-icons/si";
+import { SiGmail, SiGithub, SiLinkedin } from "react-icons/si";
 
 const Footer = () => {
   return (
@@ -45,7 +45,7 @@ const Footer = () => {
             <SiGmail className="si_fa1" />
             <SiGithub className="si_fa2" />
             <SiLinkedin className="si_fa3"/>
-            <SiTwitter className="si_fa4" />
+            
           </div>
         </div>
       </div>
